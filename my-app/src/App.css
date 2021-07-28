@@ -1,0 +1,244 @@
+body{
+  background-color: #2C3E50;
+  color: white;
+}
+
+h1 {
+  margin-top:10%;
+  margin-bottom: 50px;
+  text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+}
+
+.login-panel{
+  text-align: center;
+  width: 30rem;
+  margin-left:auto;
+  margin-right: auto;
+  height: 10rem;
+  background-color: #00000060;
+  text-align: center;
+  padding: 2rem 4rem;
+}
+
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .login-panel {
+    font-size: 15px;
+  }
+}
+
+span.username{
+  margin-right: 10px;
+  font-size: large;
+  font-weight:300;
+}
+
+span.password{
+  margin-right: 10px;
+  font-size: large;
+  font-weight:300;
+}
+
+.username-input{
+  color: #ffffff;
+  width: 20rem;
+  font-size: 18px;
+  border-bottom: 2px solid #ffffff;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1.5rem;
+  background: transparent;
+}
+
+.password-input{
+  color: #ffffff;
+  width: 20rem;
+  font-size: 18px;
+  border-bottom: 2px solid #ffffff;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1.5rem;
+  background: transparent;
+}
+
+.login-button{
+  width: 10rem;
+  height: 3rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #ffffff;
+  border-radius: 1.5rem;
+  background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);;
+}
+
+.login-button:hover{
+  color:#000;
+  background-color: #fff;
+  cursor:pointer;
+}
+
+.caption-panel{
+  text-align: center;
+}
+
+.position{
+  margin-bottom: 25px;
+}
+
+#season{
+  margin-right: 10px;
+  border: none;
+  box-shadow: 0 0 5px #ccc;
+  border-radius: 5px;
+  outline: none;
+  height: 25px;
+}
+
+#episode{
+  margin-right: 10px;
+  border: none;
+  box-shadow: 0 0 5px #ccc;
+  border-radius: 5px;
+  outline: none;
+  height: 25px;
+}
+
+.episode-selection-button{
+  margin-left: 10px;
+  border: none;
+  box-shadow: 0 0 5px #ccc;
+  border-radius: 5px;
+  outline: none;
+  height: 25px;
+}
+
+.episode-selection-button:hover{
+  cursor: pointer;
+  color:darkslategray;
+}
+
+.caption-display{
+  background-color:#fff;
+  box-shadow: 0 0 5px #ccc;;
+  border: none;
+  border-radius: 5px;
+  color:black;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.chn-caption-panel{
+  margin-bottom: 10px;
+}
+
+.eng-caption-panel{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+span.chn{
+  font-weight: bold;
+}
+
+span.eng{
+  font-weight: bold;
+}
+
+.eng-caption{
+  height: 20px;
+  margin-top: 10px;
+}
+
+.chn-caption{
+  height: 20px;
+  margin-top: 10px;
+}
+
+.chn-caption-button{
+  margin-top: 10px;
+  border: none;
+  box-shadow: 0 0 5px #ccc;
+  border-radius: 5px;
+  outline: none;
+  height: 25px;
+}
+
+.chn-caption-button:hover{
+  background-color: #fff;
+  cursor: pointer;
+  color:darkslategray;
+}
+
+.eng-caption-button{
+  margin-top: 10px;
+  border: none;
+  box-shadow: 0 0 5px #ccc;
+  border-radius: 5px;
+  outline: none;
+  height: 25px;
+}
+
+.eng-caption-button:hover{
+  color:#000;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.next-button{
+  margin-top: 5px;
+  margin-left: 30px;
+  border: none;
+  box-shadow: 0 0 5px #ccc;
+  border-radius: 5px;
+  outline: none;
+  height: 25px;
+}
+
+.next-button:hover{
+  cursor: pointer;
+  color:darkslategray;
+}
+
+.prev-button{
+  border: none;
+  box-shadow: 0 0 5px #ccc;
+  border-radius: 5px;
+  outline: none;
+  height: 25px;
+}
+
+.prev-button:hover{
+  cursor: pointer;
+  color:darkslategray;
+}
+
+.logout-panel{
+  margin-top: 15px;
+  text-align: center;
+}
+
+.logout-button{
+  border: none;
+  box-shadow: 0 0 5px #ccc;
+  border-radius: 5px;
+  outline: none;
+  height: 25px;
+}
+
+.logout-button:hover{
+  cursor: pointer;
+  color:darkslategray;
+}
+
+.error-message{
+  text-align: center;
+  margin-top: 25px;
+}
